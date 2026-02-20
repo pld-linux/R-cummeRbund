@@ -3,7 +3,7 @@
 Summary:	Analysis, exploration, manipulation, and visualization of Cufflinks high-throughput sequencing data
 Name:		R-%{packname}
 Version:	2.4.0
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
