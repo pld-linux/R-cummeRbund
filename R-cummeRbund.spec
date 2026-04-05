@@ -1,14 +1,15 @@
 %define		packname	cummeRbund
 
+%undefine	_debugsource_packages
 Summary:	Analysis, exploration, manipulation, and visualization of Cufflinks high-throughput sequencing data
 Name:		R-%{packname}
 Version:	2.4.0
-Release:	2
+Release:	3
 License:	LGPL v2+
 Group:		Applications/Engineering
-Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
 # Source0-md5:	f6236638b8305fd6ac7c58bd5f9bb89d
-URL:		http://bioconductor.org/packages/release/bioc/html/cummeRbund.html
+URL:		https://bioconductor.org/packages/release/bioc/html/cummeRbund.html
 BuildRequires:	R
 BuildRequires:	R-BiocGenerics >= 0.3.2
 BuildRequires:	R-Gviz
